@@ -1,2 +1,16 @@
 # SNHUProject
-Repository set up for SNHU CS-210 
+#Repository set up for SNHU CS-210 
+## Summarize the project and what problem it was solving.
+This project takes an input file and organizes the items by the users choosing based off a menu prompt. The Program can take a series of items and log how many times each unique item occurs within an input file and then output those results to an output file for later use. The Program also has option 1. which allows the user to enter in an item to search how many times it occurs within the input file and then outputs that frequency to the user. Option 2 outputs all items and their respective frequencies to the user. Option 3 outputs all unique items and their respective frequencies in the form of "*"s representing how many times each unique item occurs
+## What did you do particularly well?
+I belive in comparison to my pats projects I did a very good job cutting down on the amount of superfluous code necessary for the program to run, including functions, variables, and class utilization.
+## Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
+I know that I can enhance my code by providing more input validation from the user and possibly simplifying some functions with higher end library utilization
+## Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
+I feel the most difficult aspect of the code was definitely reacquanting myself with the input and output variables as well as figuring out how to identify each unique word in the input file and then iterate back over it to figure out how many times each unique word occurs.
+The two most valuable resources have deifinitely been stack overflow and youtube in order to answer any specific questions I have. 
+## What skills from this project will be particularly transferable to other projects or course work?
+I believe the utilization of loops and vectors in order to self reference an input file is incredibly valuable and that type of thinking is going to be a common occurance in future programming projects. This in conjunction with the utilization of classes and the breaking down of functions in order to reduce overall clutter and increase readability and clarity is going to be of the utmost importance moving forward. 
+## How did you make this program maintainable, readable, and adaptable?
+In maintainability I ensured that I broke apart multi-use functions to cut down on copy-paste code that makes it easier to maintain, this is shown with CreateGroceryList() function that is used multiple times in two other functions as well as MainMenuGreeting() that is used 4 seperate times throughout MainMenuDisplay().
+This also directly relates to readable code as it makes it much easier to quickly read through the program and understand what's happening without having to deal with as much visual clutter, I have also utilized standard naming conventions in all variables as well as class GroceryItem and its respective variables as well to make it easier to read and understand. The adpatability is present by partitioning out the important aspects of the code so as to be able to isolate any specific areas of interest and easily change and modify it.
